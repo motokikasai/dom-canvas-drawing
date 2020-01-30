@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  /* display: flex;
+  justify-content: center; */
+  margin: 0;
+}
+
+main {
+  background-color: antiquewhite;
+  /* width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; */
+  height: 100vh;
+}
