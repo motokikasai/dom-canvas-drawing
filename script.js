@@ -13,7 +13,7 @@ const painter = e => {
   circle.style.position = "absolute";
   circle.style.left = e.clientX + "px";
   circle.style.top = e.clientY + "px";
-  circle.style.backgroundColor = "red";
+  circle.style.backgroundColor = "hotpink";
 };
 
 main.addEventListener("mousemove", painter);
@@ -39,5 +39,3 @@ resetBtn.addEventListener("click", () => {
     main.removeChild(div);
   }
 });
-
-console.log(main);
